@@ -45,9 +45,9 @@ public class ArrayAlgorithms {
     public static int[] leftShift(int[] nums, int shift){
         int [] outcome = new int[shift+nums.length];
         int temp = outcome[0];
-        for(int x=0;x<(shift+nums.length-1); x++){
-            outcome[x] = outcome[x+1];
+        for(int x=0;x<nums.length; x++){
+            outcome[x] = nums[x];
         }
-        return outcome;
+        outcome = ;
     }
 }
