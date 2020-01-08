@@ -48,6 +48,6 @@ public class ArrayAlgorithms {
         for(int x=0;x<nums.length; x++){
             outcome[x] = nums[x];
         }
-        outcome = ;
+        return outcome;
     }
 }
