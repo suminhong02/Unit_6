@@ -1,3 +1,6 @@
+//Sumin Hong
+//1/10/2020
+//This code present the percentage of having duplicate birthdays when certain number of people are gathered together.
 public class Birthday {
 
     public static int[] dates(int num){
@@ -8,6 +11,7 @@ public class Birthday {
         }
         return birthday;
     }
+
     public static boolean hasDupes(int[] birthdays){
         for(int x = 0; x < birthdays.length; x++){
             for(int k = x + 1; k < birthdays.length; k++){
@@ -17,6 +21,7 @@ public class Birthday {
         }
         return false;
     }
+
     public static void main(String[] args){
         double total = 0;
         for(int i = 0; i < 1000; i++){
