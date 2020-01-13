@@ -50,4 +50,15 @@ public class ArrayAlgorithms {
         }
         return outcome;
     }
+
+    public static int[] reverseArray(int [] list){
+        int [] outcome = new int[list.length];
+        int temp = ;
+        for(int i = 0; i<list.length; i++) {
+            outcome[i] = list[list.length -1 - i];
+        }
+        return outcome;
+    }
+
+    
 }
