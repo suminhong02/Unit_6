@@ -43,7 +43,7 @@ public class ArrayAlgorithms {
     }
 
     public static int[] leftShift(int[] nums, int shift){
-        int [] outcome = new int[shift+nums.length];
+         int [] outcome= new int[shift+nums.length];
         int temp = outcome[0];
         for(int x=0;x<nums.length; x++){
             outcome[x] = nums[x];
@@ -51,13 +51,13 @@ public class ArrayAlgorithms {
         return outcome;
     }
 
-    public static int[] reverseArray(int [] list){
+    public static String reverseArray(int [] list){
         int [] outcome = new int[list.length];
-        int temp = ;
+        int []temp = outcome;
         for(int i = 0; i<list.length; i++) {
             outcome[i] = list[list.length -1 - i];
         }
-        return outcome;
+        return printArray(outcome);
     }
 
     
